@@ -12,7 +12,7 @@ programming
 <br>II. Exercises/Experiments related to the assemblers, loaders and macroprocessors
 <br><br>
 
-MICROPROCESSORS LAB : List of Exercises/ Experiments
+<h1>MICROPROCESSORS LAB : List of Exercises/ Experiments </h1>
 <br>(Minimum 10 Exercises (at least 2 questions from each part I, II, III & IV) ) : 2 Hrs/week
 <br><br>I. Assembly Language Programming Exercises/Experiments using 8086 Trainer kit
 <br>1. Implementation of simple decimal arithmetic and bit manipulation operations.
@@ -35,7 +35,7 @@ implementation).
 <br><br>12. Familiarization of 8051 trainer kit by executing simple Assembly Language programs
 such as decimal arithmetic and bit manipulation.
 <br>13. Implementation of Timer programming (in mode1).
-<br><br>SYSTEM SOFTWARE LAB: List of Exercises/ Experiments
+<h1><br><br>SYSTEM SOFTWARE LAB: List of Exercises/ Experiments</h1>
 <br>(Minimum 8 Exercises (at least 3 and 5 questions from each part V and VI)) : 2
 Hrs/week
 <br><br>V. Exercises/Experiments from operating system
