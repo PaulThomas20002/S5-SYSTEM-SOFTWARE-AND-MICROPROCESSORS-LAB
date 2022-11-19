@@ -1,0 +1,5 @@
+START	*
+LDA	00
+MUL	20
+STA	4C
+END	*
