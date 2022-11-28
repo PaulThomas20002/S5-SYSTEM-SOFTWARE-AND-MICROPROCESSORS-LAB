@@ -1,0 +1,35 @@
+##Implementation of Basic Arithmetric operation in 8086 Microprocessor Trainer Kit
+
+##Starting address from 1000H
+
+MOV CL,00H
+MOV AL,[1100H]
+MOV BL,[1101H]
+ADD AL,BL
+JNC 1015
+INC CL
+MOV [1103H],CL
+MOV CL,00H
+
+MOV AL,[1100H]
+SUB AL,BL
+JNC 1026
+INC CL
+MOV [1106H],CL
+MOV [1104H],AL
+
+MOV AL,[1100H]
+MUL BL
+MOV [1107H],AX
+
+MOV AL,[1100H]
+MOV BL,[1101H]
+DIV BL
+MOV [1109H],AL
+MOV [110AH],AH
+HLT
+
+##
+input
+1100H : first value
+1101H : second value

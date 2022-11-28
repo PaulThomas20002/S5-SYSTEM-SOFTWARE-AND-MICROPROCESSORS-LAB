@@ -1,0 +1,35 @@
+##Implementation of Ascending order sorting in 8086 Microprocessor Trainer Kit
+
+##Starting address from 1000H
+
+MOV SI,1100H
+MOV CL,[SI]
+DEC CL
+MOV SI,1100H
+MOV CH,[SI]
+DEC CH
+INC SI
+MOV AL,[SI]
+INC SI
+CMP AL,[SI]
+JC 101D
+XCHG AL,[SI]
+XCHG AL,[SI-1]
+DEC CH
+JNZ 1011
+DEC SL
+JNZ 1008
+HLT
+
+##
+input
+1100H :05H //counter
+1101H :   //starting value of array
+""
+""
+..
+
+.
+
+
+

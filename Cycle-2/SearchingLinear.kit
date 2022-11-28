@@ -1,0 +1,27 @@
+##Implementation of Linear Searching in 8086 Microprocessor Trainer Kit
+
+##Starting address from 2000H
+
+MOV SI,3001H
+MOV CL,[3000H]
+MOV BL,[4000H]
+CMP AL,BL
+JZ 2018H
+INC SI
+LOOP 200C
+JMP 2021
+MOV [4005H],01H
+MOV [4006H],AL
+HLT
+
+##
+Input
+3000H :05H //Counter
+3001H :06H //starting value of array
+""
+""
+""
+""
+4000H :06H // search key/item
+4005H :00H // flag kind thing	
+
