@@ -40,4 +40,3 @@ void main() {
     } while (!feof(fp));
   }
 }
-s
