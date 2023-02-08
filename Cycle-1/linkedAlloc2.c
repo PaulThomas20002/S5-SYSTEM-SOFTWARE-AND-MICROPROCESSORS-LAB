@@ -74,7 +74,7 @@ int main(){
     printf("\n1.linked \n2. Exit\n");
     scanf("%d", &d);    
     switch(d){    
-        case 1 : linked(); break;
+        case 1 : linked(); main(); break;
         
         default : printf("Try again");
     }       
